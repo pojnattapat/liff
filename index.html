@@ -133,7 +133,7 @@
         getContext()
         getFriendship()
       } else {
-        liff.login()
+        liff.login({ redirectUri: window.location.href })
       }
       // createUniversalLink()
     }
